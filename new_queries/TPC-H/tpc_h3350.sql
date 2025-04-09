@@ -1,0 +1,1 @@
+SELECT table_name.column_name , COUNT ( * ) AS column_label FROM table_name AS table_name WHERE  GROUP BY table_name.column_name ORDER BY table_name.column_name 

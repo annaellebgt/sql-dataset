@@ -1,0 +1,1 @@
+SELECT   column_label FROM table_name WHERE column_name <= DATE '1998-12-01' - INTERVAL '90 days' GROUP BY column_name , column_name ORDER BY column_name , column_name 

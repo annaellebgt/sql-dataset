@@ -1,0 +1,1 @@
+SELECT column_name , COUNT ( * ) AS column_label , SUM ( column_name ) AS column_label FROM ( SELECT SUBSTRING ( column_name FROM 1 FOR 2 ) AS column_label , column_name FROM table_name WHERE 1 - table_name.column_name ) AS table_name GROUP BY column_name ORDER BY column_name 
