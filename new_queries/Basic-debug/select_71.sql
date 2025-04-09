@@ -1,1 +1,1 @@
-SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name.column_name > 980 ORDER BY string4 using < , unique1 using > 
+SELECT * FROM table_name WHERE   5 6 4 8 4 < 10 ORDER BY table_name.column_name 

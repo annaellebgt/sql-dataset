@@ -1,1 +1,1 @@
-SELECT * FROM table_name WHERE table_name.column_name < 10  BY table_name.column_name 
+SELECT column_name  b  , column_name  F   9    d FROM table_name WHERE table_name.column_name > 980 ORDER BY stringu1 using < 

@@ -1,1 +1,1 @@
-SELECT  FROM table_name WHERE table_name.column_name < 20 ORDER BY unique1 using > 
+SELECT * FROM table_name WHERE table_name.column_name <   2  AS column_label  k   5  $  $  $  $ ORDER BY table_name.column_name 

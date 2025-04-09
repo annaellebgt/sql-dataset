@@ -1,1 +1,1 @@
-SELECT table_name.column_name , table_namecolumn_name FROM table_name WHERE table_name.column_name < 20 ORDER BY unique1 using > , string4 using < 
+SELECT * FROM table_name WHERE table_name.column_name < 10 ORDER BY table_name  k.column_name 

@@ -1,1 +1,1 @@
-SELECT * FROM table_name WHERE table_name.column_name < 10 ORDER  table_name.column_name 
+SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name  F    d.column_name < 20 ORDER BY unique1 using > 

@@ -1,1 +1,1 @@
-SELECT * FROM table_name WHERE     column_label    table_namecolumn_name  column_name   column_name  table_name  column_label       ORDER BY table_name.column_name 
+SELECT table_name.column_name , table_name  k.column_name FROM table_name WHERE table_name.column_name > 980 ORDER BY stringu1 using < 

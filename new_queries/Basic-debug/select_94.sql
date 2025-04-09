@@ -1,1 +1,1 @@
-SELECT * FROM WHERE table_name.column_name < 10 ORDER BY table_name.column_name 
+SELECT * FROM table_name WHERE table_name.column_name < table_name  G    Q   4    m.  * ORDER BY table_name.column_name 

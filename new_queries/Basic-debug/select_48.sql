@@ -1,1 +1,1 @@
-SELECT table_name.column_name , table_name.column_name FROM table_name WHERE column_name  column_name ORDER BY unique1 using > , string4 using < 
+SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name  K    D.column_name > 980 ORDER BY string4 using < , unique1 using > 

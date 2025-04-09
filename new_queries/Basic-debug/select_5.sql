@@ -1,1 +1,1 @@
-SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name.column_name < 20 ORDER BY  using > 
+SELECT * FROM table_name WHERE table_name.column_name < column_name  _ ORDER BY table_name.column_name 

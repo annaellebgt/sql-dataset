@@ -1,1 +1,1 @@
-SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name.column_name > column_name ORDER BY stringu1 using < 
+SELECT * FROM table_name WHERE table_name  q. column_name  o < 10 ORDER BY table_name.column_name 
