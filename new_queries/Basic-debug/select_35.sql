@@ -1,1 +1,1 @@
-SELECT * FROM table_name WHERE table_name.column_name < 10 ORDER BY table_name.column_name 
+SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name.column_name > 980 ORDER BY  using < , unique1 using > 
