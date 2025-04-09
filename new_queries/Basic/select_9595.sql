@@ -1,0 +1,1 @@
+SELECT * FROM table_name WHERE table_name.column_name < column_name  column_label ORDER BY table_name.column_name 

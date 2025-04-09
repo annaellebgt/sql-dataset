@@ -1,0 +1,1 @@
+SELECT * FROM table_name WHERE    column_label  table_namecolumn_name       table_name ORDER BY table_name.column_name 

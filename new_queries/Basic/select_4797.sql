@@ -1,0 +1,1 @@
+SELECT * FROM table_name WHERE column_name  column_label < 10 ORDER BY table_name.column_name 
