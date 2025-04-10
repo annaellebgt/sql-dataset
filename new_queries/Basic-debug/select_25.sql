@@ -1,1 +1,0 @@
-SELECT table_name.column_name , column_name  E FROM table_name WHERE table_name.column_name > 980 ORDER BY stringu1 using < 

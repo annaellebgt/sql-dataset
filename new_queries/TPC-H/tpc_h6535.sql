@@ -1,1 +1,0 @@
-SELECT table_name.column_name , COUNT ( * ) AS column_label FROM table_name AS table_name WHERE table_name.column_name >= DATE '1993-07-01' AND ( SELECT AVG ( column_name ) FROM table_name WHERE column_name > 0.00 AND SUBSTRING ( column_name FROM 1 FOR 2 ) IN ( '13' , '31' , '23' , '29' , '30' , '18' , '17' ) ) GROUP BY table_name.column_name ORDER BY table_name.column_name 

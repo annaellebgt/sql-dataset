@@ -1,1 +1,0 @@
-SELECT column_name , SUM ( CASE WHEN column_name = 'BRAZIL' THEN column_name ELSE 0 END ) / SUM ( column_name ) AS column_label FROM (  table_name  table_namecolumn_name  column_label  column_name  column_label  column_name         table_name              table_name           ) AS table_name GROUP BY column_name ORDER BY column_name 

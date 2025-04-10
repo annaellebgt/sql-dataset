@@ -1,1 +1,0 @@
-SELECT column_name , COUNT ( * ) AS column_label , SUM ( column_name ) AS column_label FROM table_name AS table_name GROUP BY column_name ORDER BY column_name 
