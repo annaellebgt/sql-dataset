@@ -1,6 +1,7 @@
 .DS_Store
-./new_queries
-./WorkloadGen
+new_queries/
+WorkloadGen/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
