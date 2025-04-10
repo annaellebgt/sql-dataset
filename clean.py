@@ -1,12 +1,12 @@
 
 import os
 from antlr4 import *
-from generated.BasicSQLGenLexer import BasicSQLGenLexer
-from generated.BasicSQLGenParser import BasicSQLGenParser
-from generated.TPCHSQLGenLexer import TPCHSQLGenLexer
-from generated.TPCHSQLGenParser import TPCHSQLGenParser
+from parserGenerated.BasicSQLGenLexer import BasicSQLGenLexer
+from parserGenerated.BasicSQLGenParser import BasicSQLGenParser
+from parserGenerated.TPCHSQLGenLexer import TPCHSQLGenLexer
+from parserGenerated.TPCHSQLGenParser import TPCHSQLGenParser
 
-def clean_queries(folder_path, parser_cls, lexer_cls, output_path="basic.sql"):
+def clean_queries(folder_path, parser_cls=None, lexer_cls=None, output_path="basic.sql"):
     
     with open(output_path, 'w', encoding='utf-8') as outfile:
         for filename in os.listdir(folder_path):
@@ -39,8 +39,8 @@ def is_valid_sql(query, parser_cls, lexer_cls):
         return False
 
 
-# folder_path="new_queries/TPC-H/"
-# clean_queries(folder_path,TPCHSQLGenParser,TPCHSQLGenLexer,"tpc_h_queries.sql")
+folder_path="new_queries/TPC-H/"
+clean_queries(folder_path,TPCHSQLGenParser,TPCHSQLGenLexer,"tpc_h_queries.sql")
 
-folder_path="new_queries/Basic/"
-clean_queries(folder_path,BasicSQLGenParser,BasicSQLGenLexer,"basic.sql")
+# folder_path="new_queries/Basic/"
+# clean_queries(folder_path,BasicSQLGenParser,BasicSQLGenLexer,output_path="basic.sql")
