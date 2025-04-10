@@ -1,1 +1,0 @@
-SELECT * FROM table_name WHERE   6 8 4 ORDER BY table_name.column_name 

@@ -7,17 +7,18 @@ from generated.TPCHSQLGenLexer import TPCHSQLGenLexer
 from generated.TPCHSQLGenParser import TPCHSQLGenParser
 
 def clean_queries(folder_path, parser_cls, lexer_cls, output_path="basic.sql"):
+    
     with open(output_path, 'w', encoding='utf-8') as outfile:
         for filename in os.listdir(folder_path):
             if filename.endswith(".sql"):
                 file_path = os.path.join(folder_path, filename)
                 with open(file_path, 'r', encoding='utf-8') as infile:
                     query = infile.read()
-                    if is_valid_sql(query, parser_cls, lexer_cls):
-                        cleaned_line = query.strip().replace("\n", " ")
-                        outfile.write(cleaned_line + "\n")
-                    else:
-                        print(f"Not valid sql {file_path}")
+                    # if is_valid_sql(query, parser_cls, lexer_cls):
+                    cleaned_line = query.strip().replace("\n", " ")
+                    outfile.write(cleaned_line + "\n")
+                    # else:
+                    #     print(f"Not valid sql {file_path}")
 
 def is_valid_sql(query, parser_cls, lexer_cls):
     try:
@@ -37,5 +38,9 @@ def is_valid_sql(query, parser_cls, lexer_cls):
     except Exception as e:
         return False
 
-folder_path="new_queries/Basic-debug/"
-clean_queries(folder_path,BasicSQLGenParser,BasicSQLGenLexer,"basic_debug.sql")
+
+# folder_path="new_queries/TPC-H/"
+# clean_queries(folder_path,TPCHSQLGenParser,TPCHSQLGenLexer,"tpc_h_queries.sql")
+
+folder_path="new_queries/Basic/"
+clean_queries(folder_path,BasicSQLGenParser,BasicSQLGenLexer,"basic.sql")

@@ -24,6 +24,12 @@ def anonymizer_transformer(root):
                     child.src = "column_label"
                     delete_children(child)
 
+        elif node.name == "sortby":
+            for child in node.children:
+                if child.name == "Identifier":
+                    child.src = "column_name"
+                    delete_children(child)
+
         for child in node.children:
             _walk(child)
 

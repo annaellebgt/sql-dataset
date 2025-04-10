@@ -1,1 +1,0 @@
-SELECT * FROM table_name WHERE table_name.column_name < column_name  _ ORDER BY table_name.column_name 

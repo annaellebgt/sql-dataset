@@ -1,1 +1,0 @@
-SELECT table_name.column_name , table_name.column_name FROM table_name WHERE table_name.column_name < table_name  U  $   1    m. column_name  u  $  $    S    l    L ORDER BY unique1 using > , string4 using < 

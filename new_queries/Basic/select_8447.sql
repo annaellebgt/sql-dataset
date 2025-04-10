@@ -1,1 +1,0 @@
-SELECT * FROM table_name WHERE column_name < 10 ORDER BY table_name.column_name 
